@@ -105,15 +105,15 @@ The scatter plot here is the standout visual. X-axis: Avg Passenger Rating. Y-ax
 
 ## Technical Highlights
 
-**1. 15+ Tooltip Pages** - Every major visual has a contextual drill-down on hover. Main canvas stays clean. Depth is one hover away.
+- **15+ Tooltip Pages** - Every major visual has a contextual drill-down on hover. Main canvas stays clean. Depth is one hover away.
 
-**2. Dynamic DAX Titles** - Chart titles are not static text. They read the active filter context and update automatically.
+ - **Dynamic DAX Titles** - Chart titles are not static text. They read the active filter context and update automatically.
 
-**3. Pareto Dynamic Coloring** - Automatically colors cities green or red based on 80% threshold. Recalculates when filters change (Pareto Principle simply mean a small portion of inputs typically drives the majority of outcomes, like top cities contributing most of the revenue.)
+- **Pareto Dynamic Coloring** - Automatically colors cities green or red based on 80% threshold. Recalculates when filters change (Pareto Principle simply mean a small portion of inputs typically drives the majority of outcomes, like top cities contributing most of the revenue.)
 
-**4. 8 Bookmark Toggles** - Day Type vs Passenger Type on Operations and Revenue. Month vs Cities on Executive and Customers. Clean UX without page navigation.
+- **8 Bookmark Toggles** - Day Type vs Passenger Type on Operations and Revenue. Month vs Cities on Executive and Customers. Clean UX without page navigation.
 
-**5. 80+ DAX Meaures - Key Ones Worth Highlighting**
+- **80+ DAX Meaures - Key Ones Worth Highlighting**
 
 Dynamic Best Performing City in terms of Revenue:
 
@@ -149,9 +149,9 @@ IF (
   )
 
 
-**6. Field Parameters** - Independent field parameters used across the dashboard - each showing different KPIs trend over months/cities.
+- **Field Parameters** - Independent field parameters used across the dashboard - each showing different KPIs trend over months/cities.
 
-**7. Applied Filters Panel** - Navigation panel shows active filters at all times using DAX text meaures. Viewers always know their context.
+- **Applied Filters Panel** - Navigation panel shows active filters at all times using DAX text meaures. Viewers always know their context.
 
 ## What the Data Actually Said
 🔴 **June was a disaster** - Trip volumes dropped 13.8% - steepest single month decline in H1. Revenue followed.
@@ -170,16 +170,16 @@ IF (
 
 
 ## Tools Used
-  1. Power BI Desktop - Dashboard development
-  2. DAX - 80+ measures and calculated columns
-  3. Power Query - Data transformation including conditional columns
-  4. Galaxy Schema - 8 table relationships with multiple fact tables.
+  - Power BI Desktop - Dashboard development
+  - DAX - 80+ measures and calculated columns
+  - Power Query - Data transformation including conditional columns
+  - Galaxy Schema - 8 table relationships with multiple fact tables.
 
 ## Honest Reflections
-  1) This took 7-8 days and roughly 80 hours.
-  2) The hardest part wasn't the DAX. It was deciding which visuals to remove. Every visual cut made the ones that stayed more powerful.
-  3) Tooltips are the most underrated feature in Power BI. They keep the main canvas clean while hiding analytical depth one hover away. Built 15+.
-  4) Most important lesson - a dashboard answers one clear question per visual, per page, per audience is infinitely more useful than one that tries to show everything at once.
+  - This took 7-8 days and roughly 80 hours.
+  - The hardest part wasn't the DAX. It was deciding which visuals to remove. Every visual cut made the ones that stayed more powerful.
+  - Tooltips are the most underrated feature in Power BI. They keep the main canvas clean while hiding analytical depth one hover away. Built 15+.
+  - Most important lesson - a dashboard answers one clear question per visual, per page, per audience is infinitely more useful than one that tries to show everything at once.
 
 ### Let's connect and discuss data, dashboards and insights: [Linkedin](https://www.linkedin.com/in/purti1003/)
 
