@@ -170,16 +170,16 @@ IF (
 
 
 ## Tools Used
-Power BI Desktop - Dashboard development
-DAX - 80+ measures and calculated columns
-Power Query - Data transformation including conditional columns
-Galaxy Schema - 8 table relationships with multiple fact tables.
+  Power BI Desktop - Dashboard development
+  DAX - 80+ measures and calculated columns
+  Power Query - Data transformation including conditional columns
+  Galaxy Schema - 8 table relationships with multiple fact tables.
 
 ## Honest Reflections
-1) This took 7-8 days and roughly 80 hours.
-2) The hardest part wasn't the DAX. It was deciding which visuals to remove. Every visual cut made the ones that stayed more powerful.
-3) Tooltips are the most underrated feature in Power BI. They keep the main canvas clean while hiding analytical depth one hover away. Built 15+.
-4) Most important lesson - a dashboard answers one clear question per visual, per page, per audience is infinitely more useful than one that tries to show everything at once.
+  1) This took 7-8 days and roughly 80 hours.
+  2) The hardest part wasn't the DAX. It was deciding which visuals to remove. Every visual cut made the ones that stayed more powerful.
+  3) Tooltips are the most underrated feature in Power BI. They keep the main canvas clean while hiding analytical depth one hover away. Built 15+.
+  4) Most important lesson - a dashboard answers one clear question per visual, per page, per audience is infinitely more useful than one that tries to show everything at once.
 
 ### Let's connect and discuss data, dashboards and insights: [Linkedin](https://www.linkedin.com/in/purti1003/)
 
