@@ -45,7 +45,7 @@ Eight tables. One Galaxy Schema.
   7. monthly_target_new_passengers
   8. monthly_target_trips
 
-- [Download Data Dictionary](metadata.txt)
+- [Download Data Dictionary](meta_data.txt)
 
 - [Download Data Set](cabs_dataset/)
 
