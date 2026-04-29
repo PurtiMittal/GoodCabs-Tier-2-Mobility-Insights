@@ -1,4 +1,4 @@
-# Power-BI-GoodCabs | Tier-2 Mobility Insights
+# GoodCabs | Tier-2 Mobility Insights
 Power BI dashboard analyzing GoodCabs' operations across Indian cities - covering trips, revenue, passenger growth and satisfaction across 6 pages with 80+ DAX measures, 15+ tooltip pages, field parameters, dynamic bookmarks and titles.
 
 ## Why This Project Exists
