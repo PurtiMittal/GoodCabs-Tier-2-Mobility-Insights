@@ -170,10 +170,10 @@ IF (
 
 
 ## Tools Used
-  Power BI Desktop - Dashboard development
-  DAX - 80+ measures and calculated columns
-  Power Query - Data transformation including conditional columns
-  Galaxy Schema - 8 table relationships with multiple fact tables.
+  1. Power BI Desktop - Dashboard development
+  2. DAX - 80+ measures and calculated columns
+  3. Power Query - Data transformation including conditional columns
+  4. Galaxy Schema - 8 table relationships with multiple fact tables.
 
 ## Honest Reflections
   1) This took 7-8 days and roughly 80 hours.
