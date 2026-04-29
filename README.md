@@ -8,9 +8,9 @@ They had data. Lots of it - but no unified view of how everything connected.
 
 This dashboard changes that. One home page and five descrptive pages. Five different business questions. One coherent story.
 
-Data Period: January 2024 - June 2024
-Cities Covered: 10 Tier-2 Indian Cities
-Trips Analyzed: 425,900+
+- Data Period: January 2024 - June 2024
+- Cities Covered: 10 Tier-2 Indian Cities
+- Trips Analyzed: 425,900+
 
 ## Dashboard Preview
 
@@ -45,11 +45,11 @@ Eight tables. One Galaxy Schema.
   7. monthly_target_new_passengers
   8. monthly_target_trips
 
-[Download Data Dictionary](metadata.txt)
+- [Download Data Dictionary](metadata.txt)
 
-[Download Data Set](cabs_dataset/)
+- [Download Data Set](cabs_dataset/)
 
-Schema Screenshot
+- Schema Screenshot
 ![Database_Schema](dashboard_screenshots/Schema.png)
 
 ## The Six Pages
