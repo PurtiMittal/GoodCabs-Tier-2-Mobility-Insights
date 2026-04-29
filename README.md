@@ -16,16 +16,22 @@ Trips Analyzed: 425,900+
 
 [View Interactive Dashboard Here](https://app.powerbi.com/view?r=eyJrIjoiNTkxMzkxNWMtNTk1Zi00M2U4LTk0ZmUtOTVjODU4ZTAzY2NmIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)
 
+Home Page
 ![Home Page](dashboard_screenshots/Home_page.png)
 
+Executive
 ![Executive Overview](dashboard_screenshots/Executive.png)
 
+Operations
 ![Operations](dashboard_screenshots/Operations.png)
 
+Revenue
 ![Revenue](dashboard_screenshots/Revenue.png)
 
+Customers
 ![Customers](dashboard_screenshots/Customers.png)
 
+Experience
 ![Experience](dashboard_screenshots/Experience.png)
 
 ## The Data Behind It
@@ -42,7 +48,7 @@ Eight tables. One Galaxy Schema.
 [Download Data Dictionary](metadata.txt)
 [Download Data Set](cabs_dataset/)
 
-![Experience](dashboard_screenshots/Schema.png)
+![Database_Schema](dashboard_screenshots/Schema.png)
 
 ## The Six Pages
 ### Home
