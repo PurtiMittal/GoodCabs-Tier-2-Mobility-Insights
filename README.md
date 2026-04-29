@@ -155,12 +155,19 @@ IF (
 
 ## What the Data Actually Said
 🔴 **June was a disaster** - Trip volumes dropped 13.8% - steepest single month decline in H1. Revenue followed.
+
 🔴 **New Passenger acquisition is failing.** - Targets missed in 5 out of 6 months. Not a one-off - a pattern.
+
 🔴 **Ratings are quietly declining** - Every single month since January. Alraedt at 7.54 in June against a target of 7.98.
+
 🔴 **Vadodara needs urgent attention** - Low passenger rating (6.61), consistently below trip targets, lowest revenue contribution. Three red flags, one city.
+
 🟢 **Retention is improving** - RPR% grew from 18.68% to 25.73% in 6 months. Passengers who stay are staying more.
+
 🟢 **Jaipur is carrying the business** - 18% of trips, 34% of revenue. One city, outsized impact.
+
 🟡 **Concentration risk is real** - 3 cities drive 60% of all revenue. That's dependency, not diversity.
+
 
 ## Tools Used
 Power BI Desktop - Dashboard development
