@@ -16,22 +16,22 @@ Trips Analyzed: 425,900+
 
 [View Interactive Dashboard Here](https://app.powerbi.com/view?r=eyJrIjoiNTkxMzkxNWMtNTk1Zi00M2U4LTk0ZmUtOTVjODU4ZTAzY2NmIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)
 
-Home Page
+**Home Page**
 ![Home Page](dashboard_screenshots/Home_page.png)
 
-Executive
+**Executive**
 ![Executive Overview](dashboard_screenshots/Executive.png)
 
-Operations
+**Operations**
 ![Operations](dashboard_screenshots/Operations.png)
 
-Revenue
+**Revenue**
 ![Revenue](dashboard_screenshots/Revenue.png)
 
-Customers
+**Customers**
 ![Customers](dashboard_screenshots/Customers.png)
 
-Experience
+**Experience**
 ![Experience](dashboard_screenshots/Experience.png)
 
 ## The Data Behind It
@@ -49,36 +49,32 @@ Eight tables. One Galaxy Schema.
 
 [Download Data Set](cabs_dataset/)
 
-Schema
+Schema Screenshot
 ![Database_Schema](dashboard_screenshots/Schema.png)
 
 ## The Six Pages
-### Home
+
+### 1. Home
 Branded landing page with navigation cards and page descriptions. Each card tells you exactly what question that page answers before you click.
 
-### Executive
+### 2. Executive
 Audience: CEO/Senior Management
-
 One dynamic parameter controls everything - Revenue, Trips, New Passengers, Repeat Passengers, Repeat Passenger Rate and Ratings. Best/Weakest 5 performing cities or 3 best/weakest performing months update simultaneously.
 Trend line provides a month-on-month performance story for the selected parameter.
 Monthly target achievement scorecard uses colored dots only - no numbers, for a quick high level overview. 
 
-### Operations
+### 3. Operations
 Audience: Operations Manager
-
 Answers the hardest operational questions:
   - Are we hitting targets consistently or just occasionally?
   - Are 5 cities really carrying the entire business?
   - Which cities are holding us back every single month?
   - Is demand shifted towards weekends or weekdays?
-
 The Pareto chart automatically colors cities based on whether they fall above or below the 60% cumulative count of trips threshold - built with dynamic DAX, not manual formatting.
-
 The waterfall tooltip on the trend chart shows exactly which cities caused the rise or fall that month - switches dynamically between vs Target and vs Last Month.
 
-### Revenue
+### 4. Revenue
 Audience: Finance Team
-
 Answers:
 - Who drives the most of our revenue? (Pareto Anaysis)
 - Which cities earn more per trip?
@@ -86,44 +82,38 @@ Answers:
 - How are revenue parameters split by day type and passenger types
 - Do longer trips have higher fares?
   and many more.
-  
 Three metrics (Total revenue, average revenue per trip, average revenue per km) controlled by field parameters across bar chart, trend line and donut.
-
 The scatter plot shows whether city earnings are justified by distance or whether a city is charging premium fares for short trips. A bar chart cann't show that.
 
-### Customers
+### 5. Customers
 Audience: Marketing Team
-
 The most important question here isn't how many new passegers were acquired. It's whether the ones acquired came back - and how often.
 - New Passenger Acquisition vs Target
 - RPR % trend over months
 - Repeat Trip Frequency Distribution
 - Passenger Summary Table
-
 RPR% trends from 18.68% in January to 25.73% by June - the one genuinely positive trend in an otherwise concerning H1. But Mysore at 11.23% vs Surat at 42.63% tells you retention is not a company problem - it's a city- specific problem.
 
-### Experience
+### 6. Experience
 Audience: CX/Quality Team
-
 Two sides of satisfaction - passenger and driver - analyzed simultaneusly across 10 cities and 6 months.
 - Which cities deliver the best experience?
 - Where are we losing customer satisfaction?
 - Do repeat Customers Rate Us Better?
 - Are Driver and Passenger experience moving together?
-
 The scatter plot here is the standout visual. X-axis: Avg Passenger Rating. Y-axis: Avg Driver Rating. one Chart, both dimensions of experience, all 10 cities plotted simultaneously. Kochi, Mysore and Vishakhapatnam sit top right - both sides happy. Lucknow, Vadodara and Surat sit bottom left - neither side working. One view, full picture.
 
 ## Technical Highlights
 
-**15+ Tooltip Pages** - Every major visual has a contextual drill-down on hover. Main canvas stays clean. Depth is one hover away.
+**1. 15+ Tooltip Pages** - Every major visual has a contextual drill-down on hover. Main canvas stays clean. Depth is one hover away.
 
-**Dynamic DAX Titles** - Chart titles are not static text. They read the active filter context and update automatically.
+**2. Dynamic DAX Titles** - Chart titles are not static text. They read the active filter context and update automatically.
 
-**Pareto Dynamic Coloring** - Automatically colors cities green or red based on 80% threshold. Recalculates when filters change (Pareto Principle simply mean a small portion of inputs typically drives the majority of outcomes, like top cities contributing most of the revenue.)
+**3. Pareto Dynamic Coloring** - Automatically colors cities green or red based on 80% threshold. Recalculates when filters change (Pareto Principle simply mean a small portion of inputs typically drives the majority of outcomes, like top cities contributing most of the revenue.)
 
-**8 Bookmark Toggles** - Day Type vs Passenger Type on Operations and Revenue. Month vs Cities on Executive and Customers. Clean UX without page navigation.
+**4. 8 Bookmark Toggles** - Day Type vs Passenger Type on Operations and Revenue. Month vs Cities on Executive and Customers. Clean UX without page navigation.
 
-**80+ DAX Meaures - Key Ones Worth Highlighting**
+**5. 80+ DAX Meaures - Key Ones Worth Highlighting**
 
 Dynamic Best Performing City in terms of Revenue:
 
@@ -159,9 +149,9 @@ IF (
   )
 
 
-**Field Parameters** - Independent field parameters used across the dashboard - each showing different KPIs trend over months/cities.
+**6. Field Parameters** - Independent field parameters used across the dashboard - each showing different KPIs trend over months/cities.
 
-**Applied Filters Panel** - Navigation panel shows active filters at all times using DAX text meaures. Viewers always know their context.
+**7. Applied Filters Panel** - Navigation panel shows active filters at all times using DAX text meaures. Viewers always know their context.
 
 ## What the Data Actually Said
 🔴 **June was a disaster** - Trip volumes dropped 13.8% - steepest single month decline in H1. Revenue followed.
@@ -179,13 +169,10 @@ Power Query - Data transformation including conditional columns
 Galaxy Schema - 8 table relationships with multiple fact tables.
 
 ## Honest Reflections
-This took 7-8 days and roughly 80 hours.
-
-The hardest part wasn't the DAX. It was deciding which visuals to remove. Every visual cut made the ones that stayed more powerful.
-
-Tooltips are the most underrated feature in Power BI. They keep the main canvas clean while hiding analytical depth one hover away. Built 15+.
-
-Most important lesson - a dashboard answers one clear question per visual, per page, per audience is infinitely more useful than one that tries to show everything at once.
+1) This took 7-8 days and roughly 80 hours.
+2) The hardest part wasn't the DAX. It was deciding which visuals to remove. Every visual cut made the ones that stayed more powerful.
+3) Tooltips are the most underrated feature in Power BI. They keep the main canvas clean while hiding analytical depth one hover away. Built 15+.
+4) Most important lesson - a dashboard answers one clear question per visual, per page, per audience is infinitely more useful than one that tries to show everything at once.
 
 ### Let's connect and discuss data, dashboards and insights: [Linkedin](https://www.linkedin.com/in/purti1003/)
 
