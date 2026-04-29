@@ -48,6 +48,7 @@ Eight tables. One Galaxy Schema.
 [Download Data Dictionary](metadata.txt)
 [Download Data Set](cabs_dataset/)
 
+Schema
 ![Database_Schema](dashboard_screenshots/Schema.png)
 
 ## The Six Pages
