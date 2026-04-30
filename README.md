@@ -90,7 +90,7 @@ Answers:
   
 Three metrics (Total revenue, average revenue per trip, average revenue per km) controlled by field parameters across bar chart, trend line and donut.
 
-The scatter plot shows whether city earnings are justified by distance or whether a city is charging premium fares for short trips. A bar chart cann't show that.
+The scatter plot shows whether city earnings are justified by distance or whether a city is charging premium fares for short trips. A bar chart can't show that.
 
 ### 5. Customers
 Audience: Marketing Team
@@ -101,18 +101,18 @@ The most important question here isn't how many new passegers were acquired. It'
 - Repeat Trip Frequency Distribution
 - Passenger Summary Table
   
-RPR% trends from 18.68% in January to 25.73% by June - the one genuinely positive trend in an otherwise concerning H1. But Mysore at 11.23% vs Surat at 42.63% tells you retention is not a company problem - it's a city- specific problem.
+RPR% trends from 18.68% in January to 25.73% by June - the one genuinely positive trend in an otherwise concerning H1. But Mysore at 11.23% vs Surat at 42.63% tells retention is not a company problem, it's a city-specific problem.
 
 ### 6. Experience
 Audience: CX/Quality Team
 
-Two sides of satisfaction - passenger and driver - analyzed simultaneusly across 10 cities and 6 months.
+Two sides of satisfaction - passenger and driver, analyzed simultaneusly across 10 cities and 6 months.
 - Which cities deliver the best experience?
 - Where are we losing customer satisfaction?
 - Do repeat Customers Rate Us Better?
 - Are Driver and Passenger experience moving together?
   
-The scatter plot here is the standout visual. X-axis: Avg Passenger Rating. Y-axis: Avg Driver Rating. one Chart, both dimensions of experience, all 10 cities plotted simultaneously. Kochi, Mysore and Vishakhapatnam sit top right - both sides happy. Lucknow, Vadodara and Surat sit bottom left - neither side working. One view, full picture.
+The scatter plot here is the standout visual. X-axis: Avg Passenger Rating. Y-axis: Avg Driver Rating. One chart, both dimensions of experience, all 10 cities plotted simultaneously. Kochi, Mysore and Vishakhapatnam sit top right - both sides happy. Lucknow, Vadodara and Surat sit bottom left - neither side working. One view, full picture.
 
 ## Technical Highlights
 
