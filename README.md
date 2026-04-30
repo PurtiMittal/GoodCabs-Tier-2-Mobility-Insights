@@ -59,6 +59,7 @@ Branded landing page with navigation cards and page descriptions. Each card tell
 
 ### 2. Executive
 Audience: CEO/Senior Management
+
 One dynamic parameter controls everything - Revenue, Trips, New Passengers, Repeat Passengers, Repeat Passenger Rate and Ratings. Best/Weakest 5 performing cities or 3 best/weakest performing months update simultaneously.
 Trend line provides a month-on-month performance story for the selected parameter.
 Monthly target achievement scorecard uses colored dots only - no numbers, for a quick high level overview. 
