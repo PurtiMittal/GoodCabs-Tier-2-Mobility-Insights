@@ -72,7 +72,9 @@ Answers the hardest operational questions:
   - Are 5 cities really carrying the entire business?
   - Which cities are holding us back every single month?
   - Is demand shifted towards weekends or weekdays?
+    
 The Pareto chart automatically colors cities based on whether they fall above or below the 60% cumulative count of trips threshold - built with dynamic DAX, not manual formatting.
+
 The waterfall tooltip on the trend chart shows exactly which cities caused the rise or fall that month - switches dynamically between vs Target and vs Last Month.
 
 ### 4. Revenue
