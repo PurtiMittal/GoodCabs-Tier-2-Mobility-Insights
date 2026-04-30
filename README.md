@@ -126,7 +126,7 @@ The scatter plot here is the standout visual. X-axis: Avg Passenger Rating. Y-ax
 
 - **80+ DAX Meaures - Key Ones Worth Highlighting**
 
-Dynamic Best Performing City in terms of Revenue:
+      Dynamic Best Performing City in terms of Revenue:
 
 Highest Revenue City = 
 MINX(
@@ -140,7 +140,7 @@ MINX(
 )
 
 
-Revenue Insight for Pareto Analysis:
+    Revenue Insight for Pareto Analysis:
 
 Dynamic Pareto Revenue Insight =
 VAR cnt = 
