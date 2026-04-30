@@ -163,11 +163,11 @@ The scatter plot here is the standout visual. X-axis: Avg Passenger Rating. Y-ax
 - **Applied Filters Panel** - Navigation panel shows active filters at all times using DAX text meaures. Viewers always know their context.
 
 ## What the Data Actually Said
-🔴 **June was a disaster** - Trip volumes dropped 13.8% - steepest single month decline in H1. Revenue followed.
+🔴 **June was a disaster** - Trip volumes dropped 13.8%; steepest single month decline in H1. Revenue followed.
 
-🔴 **New Passenger acquisition is failing.** - Targets missed in 5 out of 6 months. Not a one-off - a pattern.
+🔴 **New Passenger acquisition is failing.** - Targets missed in 5 out of 6 months. Not a one-off, a pattern.
 
-🔴 **Ratings are quietly declining** - Every single month since January. Alraedt at 7.54 in June against a target of 7.98.
+🔴 **Ratings are quietly declining** - Every single month since January. Already at 7.54 in June against a target of 7.98.
 
 🔴 **Vadodara needs urgent attention** - Low passenger rating (6.61), consistently below trip targets, lowest revenue contribution. Three red flags, one city.
 
